@@ -1,0 +1,19 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+// define Key , title and summury for SharedPreference
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="prefs_save_values"
+        android:title="Save Data"
+        android:summary="Save the values on exit"/>
+    // ListPreference for list of option of save data
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/Dice"
+        android:entryValues="@array/dice_number"
+        android:key="Dice Value"
+        android:title="Dice Side"
+        android:summary="Dice Number"/>
+
+</PreferenceScreen>

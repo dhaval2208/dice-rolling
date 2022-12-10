@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Diceroll</string>
+    <string-array name="diceside">
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+    </string-array>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+
+    <string name="four_side">four_side</string>
+    <string name="six_side">six_side</string>
+    <string name="eight_side">eight_side</string>
+    <string name="ten_side">ten_side</string>
+    <string name="twelve_side">twelve_side</string>
+    <string name="twenty_side">twenty_side</string>
+    <string name="all_side">all_side</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="setting">setting</string>
+
+</resources>

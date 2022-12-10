@@ -1,0 +1,21 @@
+<resources>
+    <!-- Reply Preference -->
+    // define all string array for spinner
+    <string-array name="Dice">
+        <item>4 side</item>
+        <item>8 side</item>
+        <item>10 side</item>
+        <item>12 side</item>
+        <item>All side</item>
+
+    </string-array>
+
+    <string-array name="dice_number">
+        <item>@string/four_side</item>
+        <item>@string/six_side</item>
+        <item>@string/eight_side</item>
+        <item>@string/ten_side</item>
+        <item>@string/twelve_side</item>
+        <item>@string/all_side</item>
+    </string-array>
+</resources>
